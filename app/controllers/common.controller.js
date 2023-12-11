@@ -10,7 +10,7 @@ function sendMail1(params) {
   var smtpTransport = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'johnwick.octal@gmail.com',
+      user: 'test@gmail.com',
       pass: 'dtxgdyyubbzqejve'
     },
   });
